@@ -7,6 +7,7 @@ import csv
 import math
 from typing import List, Dict
 
+
 class Server:
     """Server class to paginate a database of popular baby names.
     """
