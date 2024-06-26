@@ -8,7 +8,7 @@ BaseCaching = __import__('base_caching').BaseCaching
 class LIFOCache(BaseCaching):
     """LIFOCache class"""
     def __init__(self):
-        """Initiliaze"""
+        """Initialize"""
         super().__init__()
 
     def put(self, key, item):
@@ -26,4 +26,3 @@ class LIFOCache(BaseCaching):
     def get(self, key):
         """get item by key"""
         return self.cache_data.get(key)
-                
